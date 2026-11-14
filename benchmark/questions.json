@@ -1,0 +1,272 @@
+[
+  {
+    "id": "Q01",
+    "split": "dev",
+    "question": "Học phần tiên quyết phải được tích lũy vào thời điểm nào?",
+    "expected_answer": "Trước khi học học phần có yêu cầu tiên quyết.",
+    "gold_source_id": "VNU-3626-2022",
+    "gold_page": 4,
+    "gold_article": 5,
+    "evidence_start": 264,
+    "evidence_end": 355,
+    "evidence_sha256": "754d49d9c7d7aad9a6177ce08a46c4af8083d49ab7afe8b6820b234eaf479be1"
+  },
+  {
+    "id": "Q02",
+    "split": "dev",
+    "question": "Khóa luận hoặc đồ án tốt nghiệp có khối lượng bao nhiêu tín chỉ?",
+    "expected_answer": "5–10 tín chỉ.",
+    "gold_source_id": "VNU-3626-2022",
+    "gold_page": 4,
+    "gold_article": 5,
+    "evidence_start": 356,
+    "evidence_end": 512,
+    "evidence_sha256": "0e40608b8c423fb27672b81ed79fb0d41134679e7cf88ffa6935f2cf0f9dd09f"
+  },
+  {
+    "id": "Q03",
+    "split": "dev",
+    "question": "Học phí được nộp theo kỳ hay theo số tín chỉ đăng ký?",
+    "expected_answer": "Theo kỳ hoặc theo số tín chỉ đăng ký trong học kỳ.",
+    "gold_source_id": "VNU-3626-2022",
+    "gold_page": 6,
+    "gold_article": 8,
+    "evidence_start": 1423,
+    "evidence_end": 1559,
+    "evidence_sha256": "050e83a0160b457bbe4c452e412b8a89f1dc3130702673871549e6eb048c6dc0"
+  },
+  {
+    "id": "Q04",
+    "split": "dev",
+    "question": "Theo Chương II, chương trình đào tạo gồm những khối kiến thức nào?",
+    "expected_answer": "Chung, theo lĩnh vực, theo khối ngành, theo nhóm ngành và ngành.",
+    "gold_source_id": "VNU-3626-2022",
+    "gold_page": 10,
+    "gold_article": 11,
+    "evidence_start": 129,
+    "evidence_end": 579,
+    "evidence_sha256": "f1ebc1e68a4822bc90eaba8814fc2ffecd94e930f73b75a00876c3a4a16cc767",
+    "filter": {
+      "chapter": "II"
+    }
+  },
+  {
+    "id": "Q05",
+    "split": "dev",
+    "question": "Theo Chương II, chuẩn đầu ra ngoại ngữ của chương trình chuẩn tương đương bậc nào?",
+    "expected_answer": "Bậc 3 theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam.",
+    "gold_source_id": "VNU-3626-2022",
+    "gold_page": 11,
+    "gold_article": 13,
+    "evidence_start": 609,
+    "evidence_end": 844,
+    "evidence_sha256": "22ff0f8d564f08c7b81d25b15d7563646e415daa83baeeb91f54b6d8141db1c4",
+    "filter": {
+      "chapter": "II"
+    }
+  },
+  {
+    "id": "Q06",
+    "split": "dev",
+    "question": "Thời gian thiết kế của khóa cử nhân chính quy là bao nhiêu học kỳ chính?",
+    "expected_answer": "8 học kỳ chính.",
+    "gold_source_id": "VNU-3626-2022",
+    "gold_page": 14,
+    "gold_article": 17,
+    "evidence_start": 315,
+    "evidence_end": 539,
+    "evidence_sha256": "e7634b18b2ecad24433047fd28c6fd84190a983fce7073f473acbdcd622a21ab"
+  },
+  {
+    "id": "Q07",
+    "split": "dev",
+    "question": "Cùng chương trình, thời gian chuẩn của hệ vừa làm vừa học phải dài hơn hệ chính quy ít nhất bao nhiêu?",
+    "expected_answer": "20%.",
+    "gold_source_id": "VNU-3626-2022",
+    "gold_page": 14,
+    "gold_article": 17,
+    "evidence_start": 540,
+    "evidence_end": 720,
+    "evidence_sha256": "849f25e35e0a82c626201ef423a22422a67044154c2d687fa0fceaf891be74e8"
+  },
+  {
+    "id": "Q08",
+    "split": "dev",
+    "question": "Khi phải xếp lịch học tập trung, số giờ giảng tối đa mỗi tuần và mỗi ngày của một học phần là bao nhiêu?",
+    "expected_answer": "15 giờ/tuần và 4 giờ/ngày.",
+    "gold_source_id": "VNU-3626-2022",
+    "gold_page": 17,
+    "gold_article": 20,
+    "evidence_start": 659,
+    "evidence_end": 901,
+    "evidence_sha256": "d47efab3947acb92e3506c3f762807077dca09a0b2b9cb2103cbc445297e99b5"
+  },
+  {
+    "id": "Q09",
+    "split": "dev",
+    "question": "Sinh viên nhận điểm F ở một học phần bắt buộc phải làm gì?",
+    "expected_answer": "Đăng ký học lại chính học phần đó.",
+    "gold_source_id": "VNU-3626-2022",
+    "gold_page": 19,
+    "gold_article": 21,
+    "evidence_start": 19,
+    "evidence_end": 111,
+    "evidence_sha256": "07bbcca4dc0a514c272902e3bee5ff2bd52a752de55f6de35598bcb344afb418"
+  },
+  {
+    "id": "Q10",
+    "split": "dev",
+    "question": "Nếu trượt học phần tự chọn có điều kiện, sinh viên có thể thay bằng học phần nào?",
+    "expected_answer": "Học lại học phần cũ hoặc học một học phần tự chọn khác cùng khối kiến thức.",
+    "gold_source_id": "VNU-3626-2022",
+    "gold_page": 19,
+    "gold_article": 21,
+    "evidence_start": 112,
+    "evidence_end": 278,
+    "evidence_sha256": "a8dc523480cb51054e7b4aacf9eb7e66bb7e39800cd2f1d9465d683438262dfa"
+  },
+  {
+    "id": "Q11",
+    "split": "dev",
+    "question": "Nếu bỏ học phần sau thời hạn rút đăng ký và không đi học, điểm và học phí được xử lý thế nào?",
+    "expected_answer": "Nhận điểm F và không được trả lại học phí.",
+    "gold_source_id": "VNU-3626-2022",
+    "gold_page": 21,
+    "gold_article": 23,
+    "evidence_start": 430,
+    "evidence_end": 713,
+    "evidence_sha256": "5f4e408f36c675c6340e49e34d47569d740d97ea81e8a977cb81ee8003e2cdf9"
+  },
+  {
+    "id": "Q12",
+    "split": "dev",
+    "question": "Điểm trung bình chung các học phần tối thiểu tại thời điểm xét chuyển ngành sau năm thứ nhất là bao nhiêu?",
+    "expected_answer": "2,50.",
+    "gold_source_id": "VNU-3626-2022",
+    "gold_page": 28,
+    "gold_article": 28,
+    "evidence_start": 333,
+    "evidence_end": 414,
+    "evidence_sha256": "d48b959b853274be2e82f12cd16d730af74824adf59c87594792a077b1d73e4f"
+  },
+  {
+    "id": "Q13",
+    "split": "dev",
+    "question": "Sinh viên đã học từ năm thứ hai có được xem xét chuyển ngành không?",
+    "expected_answer": "Không.",
+    "gold_source_id": "VNU-3626-2022",
+    "gold_page": 28,
+    "gold_article": 28,
+    "evidence_start": 778,
+    "evidence_end": 852,
+    "evidence_sha256": "942d4d9a545edf16bb3a3c40fad5587b3b71a09774a74389872da2444e346b04"
+  },
+  {
+    "id": "Q14",
+    "split": "dev",
+    "question": "Thực nghiệm khoa học và thực hiện đồ án tốt nghiệp có phải hình thức nghiên cứu khoa học của sinh viên không?",
+    "expected_answer": "Có.",
+    "gold_source_id": "VNU-3626-2022",
+    "gold_page": 30,
+    "gold_article": 30,
+    "evidence_start": 367,
+    "evidence_end": 545,
+    "evidence_sha256": "d22b7d2d4a4b53e52802ec49c769580bb70db4ecaf109495389b688a67c8ef7e"
+  },
+  {
+    "id": "Q15",
+    "split": "dev",
+    "question": "Theo Chương IV, nếu sinh viên đạt nhiều giải nghiên cứu ở các cấp, điểm thưởng được cộng thế nào?",
+    "expected_answer": "Chỉ cộng một lần theo mức giải cao nhất.",
+    "gold_source_id": "VNU-3626-2022",
+    "gold_page": 31,
+    "gold_article": 32,
+    "evidence_start": 984,
+    "evidence_end": 1106,
+    "evidence_sha256": "171ad0d428c7447c3e63e8a67a2954fb6dfdf595b5826a5b42b7536a49ea5fc1",
+    "filter": {
+      "chapter": "IV"
+    }
+  },
+  {
+    "id": "Q16",
+    "split": "test",
+    "question": "Theo Chương VI, khi bị khiển trách vì vi phạm trong giờ thi, sinh viên bị trừ bao nhiêu phần trăm điểm bài thi?",
+    "expected_answer": "25% số điểm đạt được của bài thi.",
+    "gold_source_id": "VNU-3626-2022",
+    "gold_page": 35,
+    "gold_article": 35,
+    "evidence_start": 1030,
+    "evidence_end": 1256,
+    "evidence_sha256": "48c3e93ef6d9106ae8ae5664e39a9d46560d325fcb1f9d8fd4ec02bcf03fa294",
+    "filter": {
+      "chapter": "VI"
+    }
+  },
+  {
+    "id": "Q17",
+    "split": "test",
+    "question": "Giấy tờ nào cần có để xin nghỉ học tạm thời khi tai nạn phải điều trị dài ngày?",
+    "expected_answer": "Chứng nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền theo quy định của Bộ Y tế.",
+    "gold_source_id": "VNU-3626-2022",
+    "gold_page": 37,
+    "gold_article": 36,
+    "evidence_start": 235,
+    "evidence_end": 380,
+    "evidence_sha256": "688ffbb7cd3284e8b9dee7c6acae6bd0eac47c61667ade78b371ffe591e15d6b"
+  },
+  {
+    "id": "Q18",
+    "split": "test",
+    "question": "Đánh giá trực tuyến được chiếm tối đa bao nhiêu phần trăm trọng số điểm học phần và phải bảo đảm gì?",
+    "expected_answer": "Tối đa 50%, bảo đảm trung thực, công bằng và khách quan như đánh giá trực tiếp.",
+    "gold_source_id": "VNU-3626-2022",
+    "gold_page": 38,
+    "gold_article": 37,
+    "evidence_start": 1096,
+    "evidence_end": 1464,
+    "evidence_sha256": "cd0cff2b4fa9d0346497f5062864beff25a527db7750872a672ec22cc5ff9822"
+  },
+  {
+    "id": "Q19",
+    "split": "test",
+    "question": "Nếu vắng thi kết thúc học phần có lý do chính đáng, sinh viên có những cách nào để thi bù?",
+    "expected_answer": "Thi bổ sung vào kỳ thi phụ hoặc bảo lưu điểm thành phần để thi vào học kỳ sau.",
+    "gold_source_id": "VNU-3626-2022",
+    "gold_page": 40,
+    "gold_article": 38,
+    "evidence_start": 0,
+    "evidence_end": 304,
+    "evidence_sha256": "cfa980b0bc62e2e9d871165ff9c0fc55cefc9a41ca8b2d59a7dcffecad574ac7"
+  },
+  {
+    "id": "Q20",
+    "split": "test",
+    "question": "Theo Chương VIII, ngưỡng điểm trung bình chung tích lũy để xét tốt nghiệp của chương trình chuẩn và chương trình chất lượng cao lần lượt là bao nhiêu?",
+    "expected_answer": "2,00 đối với ngưỡng chung và 2,50 đối với chương trình chất lượng cao.",
+    "gold_source_id": "VNU-3626-2022",
+    "gold_page": 48,
+    "gold_article": 46,
+    "evidence_start": 63,
+    "evidence_end": 205,
+    "evidence_sha256": "187281d8f5dd7d88f093802dd525608925797ed317a21009eb6fd2a758dbf486",
+    "filter": {
+      "chapter": "VIII"
+    }
+  },
+  {
+    "id": "Q21",
+    "split": "test",
+    "question": "Theo Chương VIII, trường hợp nào khiến sinh viên đạt loại giỏi hoặc xuất sắc bị hạ một hạng tốt nghiệp?",
+    "expected_answer": "Bị kỷ luật từ mức cảnh cáo trở lên hoặc khối lượng học phần phải học lại vượt 5% tổng tín chỉ chương trình.",
+    "gold_source_id": "VNU-3626-2022",
+    "gold_page": 49,
+    "gold_article": 47,
+    "evidence_start": 901,
+    "evidence_end": 1183,
+    "evidence_sha256": "cb358f31c380e6d06d3fd79b397e4be53447736326f50e9142b5e11911fa641f",
+    "filter": {
+      "chapter": "VIII"
+    }
+  }
+]

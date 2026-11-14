@@ -1,0 +1,36 @@
+{
+  "A": {
+    "chunks": 224,
+    "characters": 101411,
+    "min": 61,
+    "median": 500.0,
+    "max": 500,
+    "ingest_seconds": 13.4097,
+    "api_cost_usd": 0,
+    "count_before_reload": 224,
+    "count_after_reload": 224
+  },
+  "B": {
+    "chunks": 180,
+    "characters": 92683,
+    "min": 26,
+    "median": 583.5,
+    "max": 800,
+    "ingest_seconds": 11.8525,
+    "api_cost_usd": 0,
+    "count_before_reload": 180,
+    "count_after_reload": 180
+  },
+  "C": {
+    "chunks": 180,
+    "characters": 92683,
+    "min": 26,
+    "median": 583.5,
+    "max": 800,
+    "ingest_seconds": 11.8525,
+    "api_cost_usd": 0,
+    "count_before_reload": 180,
+    "count_after_reload": 180,
+    "shared_collection": "structured"
+  }
+}

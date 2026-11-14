@@ -1,0 +1,190 @@
+﻿split,strategy,id,rank,chunk_id,source_id,page,start,end,decision,reviewer,reason
+dev,A,Q01,1,0a9ac5c9-16d9-5233-9e6e-174dcb43cc18,VNU-3626-2022,4,0,500,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,A,Q01,2,2c89c986-81db-5e57-a21e-5b02fbebe7c5,VNU-3626-2022,18,1800,2059,insufficient,Codex,Thiếu quy định phải tích lũy học phần tiên quyết trước.
+dev,A,Q01,3,d71b9a91-c995-5ce9-acaa-e9861a0ea8ba,VNU-3626-2022,44,1350,1850,insufficient,Codex,Thiếu quy định phải tích lũy học phần tiên quyết trước.
+dev,A,Q02,1,0a9ac5c9-16d9-5233-9e6e-174dcb43cc18,VNU-3626-2022,4,0,500,equivalent,Codex,Đủ phạm vi khóa luận hoặc đồ án và dải 5–10 tín chỉ. Chỉ mất phần đuôi không cần để trả lời.
+dev,A,Q02,2,c476b93d-fd97-5463-8349-842f27c7c6fc,VNU-3626-2022,41,0,500,insufficient,Codex,Thiếu dải tín chỉ áp dụng cho khóa luận hoặc đồ án.
+dev,A,Q02,3,32947ce8-3e1b-5e5a-a31f-fecabf6ca767,VNU-3626-2022,41,450,950,insufficient,Codex,Thiếu dải tín chỉ áp dụng cho khóa luận hoặc đồ án.
+dev,A,Q03,1,bdd8a067-6584-554b-a3cc-0bc2f1c39e9d,VNU-3626-2022,6,1350,1630,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,A,Q03,2,3a9d77b2-8ff3-5a79-a497-b8e20641d0e9,VNU-3626-2022,7,0,500,insufficient,Codex,Thiếu quy định cho phép nộp theo kỳ hoặc theo số tín chỉ.
+dev,A,Q03,3,561a132a-ccb8-5308-aafe-ecf151b3832a,VNU-3626-2022,18,0,500,insufficient,Codex,Thiếu quy định cho phép nộp theo kỳ hoặc theo số tín chỉ.
+dev,A,Q04,1,c4dd9340-00de-57ca-92b3-368d2b02cc15,VNU-3626-2022,10,0,500,insufficient,Codex,Thiếu danh sách đầy đủ năm khối kiến thức.
+dev,A,Q04,2,d1b75c6c-c1d4-5406-9417-9554a37cff3d,VNU-3626-2022,12,900,1400,insufficient,Codex,Thiếu danh sách đầy đủ năm khối kiến thức.
+dev,A,Q04,3,dc263ec3-a095-543d-a1bf-ed441eaf467b,VNU-3626-2022,5,450,950,insufficient,Codex,Thiếu danh sách đầy đủ năm khối kiến thức.
+dev,A,Q05,1,972fcfc3-9951-592a-833f-ef50440d7dcb,VNU-3626-2022,11,450,950,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,A,Q05,2,da1a57ac-af22-5343-9665-d9ab066db11e,VNU-3626-2022,11,900,1400,insufficient,Codex,Thiếu bậc 3 gắn với chương trình đào tạo chuẩn.
+dev,A,Q05,3,7a74cae9-0d36-51fd-a41f-8a152ce99a88,VNU-3626-2022,11,0,500,insufficient,Codex,Thiếu bậc 3 gắn với chương trình đào tạo chuẩn.
+dev,A,Q06,1,36569208-2ff5-5ce0-a9a0-faea3efc5cf0,VNU-3626-2022,14,0,500,equivalent,Codex,Đủ cụm chỉ thời gian thiết kế cử nhân chính quy là 8 học kỳ chính. Phần bị cắt nói về nhóm đào tạo khác.
+dev,A,Q06,2,3c64917c-c3ae-5a5f-b23c-b61384d5b4d3,VNU-3626-2022,14,450,950,insufficient,Codex,Thiếu 8 học kỳ chính gắn với thời gian thiết kế cử nhân chính quy.
+dev,A,Q06,3,9436dc04-c852-55c3-8943-26c30fffdac4,VNU-3626-2022,17,450,950,insufficient,Codex,Thiếu 8 học kỳ chính gắn với thời gian thiết kế cử nhân chính quy.
+dev,A,Q07,1,4a128f2f-f152-55a3-b636-ea0dc6da945c,VNU-3626-2022,6,0,500,insufficient,Codex,Thiếu mức chênh tối thiểu 20% giữa hai hình thức của cùng chương trình.
+dev,A,Q07,2,47fc91ab-a01e-5426-b24c-c5cfd4cb6774,VNU-3626-2022,14,900,1400,insufficient,Codex,Thiếu mức chênh tối thiểu 20% giữa hai hình thức của cùng chương trình.
+dev,A,Q07,3,36569208-2ff5-5ce0-a9a0-faea3efc5cf0,VNU-3626-2022,14,0,500,insufficient,Codex,Thiếu mức chênh tối thiểu 20% giữa hai hình thức của cùng chương trình.
+dev,A,Q08,1,9436dc04-c852-55c3-8943-26c30fffdac4,VNU-3626-2022,17,450,950,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,A,Q08,2,6e08f980-4c02-5fa7-bb4e-7f61891a9b36,VNU-3626-2022,16,900,1400,insufficient,Codex,Thiếu một hoặc cả hai giới hạn giờ giảng khi xếp lịch tập trung.
+dev,A,Q08,3,ab740554-48b9-5f7f-a5a0-a75b71fa1782,VNU-3626-2022,16,0,500,insufficient,Codex,Thiếu một hoặc cả hai giới hạn giờ giảng khi xếp lịch tập trung.
+dev,A,Q09,1,7f2123fc-912b-5ec9-805d-2a3848fa283f,VNU-3626-2022,19,0,500,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,A,Q09,2,810298ba-5d81-534c-a9fd-b0e59f479450,VNU-3626-2022,46,900,1400,insufficient,Codex,Thiếu nghĩa vụ học lại chính học phần bắt buộc bị điểm F.
+dev,A,Q09,3,10b84365-4a00-52f2-934f-0c74c2b49c73,VNU-3626-2022,21,450,950,insufficient,Codex,Thiếu nghĩa vụ học lại chính học phần bắt buộc bị điểm F.
+dev,A,Q10,1,7f2123fc-912b-5ec9-805d-2a3848fa283f,VNU-3626-2022,19,0,500,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,A,Q10,2,0a9ac5c9-16d9-5233-9e6e-174dcb43cc18,VNU-3626-2022,4,0,500,insufficient,Codex,Thiếu lựa chọn thay học phần tự chọn có điều kiện bị F bằng học phần cùng khối kiến thức.
+dev,A,Q10,3,14b764d7-9fb3-5d7d-98df-4bc9338ede10,VNU-3626-2022,18,900,1400,insufficient,Codex,Thiếu lựa chọn thay học phần tự chọn có điều kiện bị F bằng học phần cùng khối kiến thức.
+dev,A,Q11,1,418c994f-f28a-5477-a6fa-4d0250d9f4bd,VNU-3626-2022,19,450,950,insufficient,Codex,Thiếu căn cứ đồng thời cho điểm F và không hoàn học phí khi bỏ ngoài hạn.
+dev,A,Q11,2,10b84365-4a00-52f2-934f-0c74c2b49c73,VNU-3626-2022,21,450,950,equivalent,Codex,"Giữ thời hạn, hậu quả điểm F và không hoàn học phí khi bỏ học phần ngoài hạn."
+dev,A,Q11,3,7f2123fc-912b-5ec9-805d-2a3848fa283f,VNU-3626-2022,19,0,500,insufficient,Codex,Thiếu căn cứ đồng thời cho điểm F và không hoàn học phí khi bỏ ngoài hạn.
+dev,A,Q12,1,5a7f8a5c-4034-5a8f-9ac2-2c6459aa73c5,VNU-3626-2022,49,450,950,insufficient,Codex,"Thiếu ngưỡng 2,50 gắn với xét chuyển ngành sau năm thứ nhất."
+dev,A,Q12,2,f55ea12a-71d9-5bbc-a71c-0be54e5e5569,VNU-3626-2022,28,0,500,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,A,Q12,3,6069ba6e-d211-5d54-bc91-86acb3badf1d,VNU-3626-2022,27,0,500,insufficient,Codex,"Thiếu ngưỡng 2,50 gắn với xét chuyển ngành sau năm thứ nhất."
+dev,A,Q13,1,f55ea12a-71d9-5bbc-a71c-0be54e5e5569,VNU-3626-2022,28,0,500,insufficient,Codex,Thiếu quy định loại trừ sinh viên đã học từ năm thứ hai.
+dev,A,Q13,2,8914c381-8cab-537e-9787-b1dcc795d031,VNU-3626-2022,28,450,950,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,A,Q13,3,048c4869-40f9-5e8f-967a-3a6a03f09525,VNU-3626-2022,24,1800,2095,insufficient,Codex,Thiếu quy định loại trừ sinh viên đã học từ năm thứ hai.
+dev,A,Q14,1,646648ba-c88e-58ef-b738-af93624b17f3,VNU-3626-2022,30,0,500,equivalent,Codex,"Giữ tiêu đề điều, cụm thực nghiệm khoa học và thực hiện đồ án tốt nghiệp."
+dev,A,Q14,2,4b7fc1f2-d546-58bf-9ac3-da6c5c65710b,VNU-3626-2022,30,450,950,insufficient,Codex,Thiếu căn cứ gắn cả thực nghiệm và đồ án với hoạt động nghiên cứu khoa học.
+dev,A,Q14,3,8edc8c42-8557-54e2-959b-f28b3fb43f42,VNU-3626-2022,35,450,950,insufficient,Codex,Thiếu căn cứ gắn cả thực nghiệm và đồ án với hoạt động nghiên cứu khoa học.
+dev,A,Q15,1,add1c5fe-8397-543b-9cda-1c8483f8a54f,VNU-3626-2022,31,900,1400,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,A,Q15,2,1fa3c329-21fd-5fa0-afc3-8fd110b248e9,VNU-3626-2022,31,0,500,insufficient,Codex,Thiếu quy định chỉ cộng một lần theo mức giải cao nhất.
+dev,A,Q15,3,4da1ffa2-4fae-5311-9295-50e1118e9f80,VNU-3626-2022,31,1350,1711,insufficient,Codex,Thiếu quy định chỉ cộng một lần theo mức giải cao nhất.
+dev,B,Q01,1,368d3f95-75e6-5c2b-87e8-eaa608322146,VNU-3626-2022,45,182,980,insufficient,Codex,Thiếu quy định phải tích lũy học phần tiên quyết trước.
+dev,B,Q01,2,5127a604-f22a-596f-8464-4a6e8afd262a,VNU-3626-2022,4,0,568,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,B,Q01,3,89f58123-5599-51ce-8bfa-4f6c19c4ab51,VNU-3626-2022,18,1231,1886,insufficient,Codex,Thiếu quy định phải tích lũy học phần tiên quyết trước.
+dev,B,Q02,1,5127a604-f22a-596f-8464-4a6e8afd262a,VNU-3626-2022,4,0,568,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,B,Q02,2,d0086eb7-6966-56a6-b56c-346cf7b95b55,VNU-3626-2022,41,0,659,insufficient,Codex,Thiếu dải tín chỉ áp dụng cho khóa luận hoặc đồ án.
+dev,B,Q02,3,d12f7b74-c757-5914-b405-16302824a752,VNU-3626-2022,3,922,1492,insufficient,Codex,Thiếu dải tín chỉ áp dụng cho khóa luận hoặc đồ án.
+dev,B,Q03,1,2564aac7-b43a-5931-9490-c67b7ee11d0c,VNU-3626-2022,36,1348,1466,insufficient,Codex,Thiếu quy định cho phép nộp theo kỳ hoặc theo số tín chỉ.
+dev,B,Q03,2,dfc7143c-533f-59c8-9612-7909c890c104,VNU-3626-2022,7,0,790,insufficient,Codex,Thiếu quy định cho phép nộp theo kỳ hoặc theo số tín chỉ.
+dev,B,Q03,3,95bc4ebf-cd9b-57ab-a9fb-a7bf0d811079,VNU-3626-2022,18,0,625,insufficient,Codex,Thiếu quy định cho phép nộp theo kỳ hoặc theo số tín chỉ.
+dev,B,Q04,1,6340635d-efb8-529b-acc4-b391dfdb7866,VNU-3626-2022,10,31,579,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,B,Q04,2,5ede43d0-8cdd-510e-b826-66b138786a25,VNU-3626-2022,5,499,1255,insufficient,Codex,Thiếu danh sách đầy đủ năm khối kiến thức.
+dev,B,Q04,3,fb1157b5-cf89-591e-8b0d-dfcff3afd6a1,VNU-3626-2022,13,0,757,insufficient,Codex,Thiếu danh sách đầy đủ năm khối kiến thức.
+dev,B,Q05,1,1b95011e-2b99-5669-acdb-f1cdef34bfe1,VNU-3626-2022,11,0,608,insufficient,Codex,Thiếu bậc 3 gắn với chương trình đào tạo chuẩn.
+dev,B,Q05,2,0b9f7e9a-aa97-5334-aa5c-d9cb37218dc2,VNU-3626-2022,11,609,1284,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,B,Q05,3,6c613bcf-eca8-592b-9c50-c304298ea942,VNU-3626-2022,23,1708,2160,insufficient,Codex,Thiếu bậc 3 gắn với chương trình đào tạo chuẩn.
+dev,B,Q06,1,d943a187-1b7f-5da4-bf56-4498897a385a,VNU-3626-2022,14,271,1005,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,B,Q06,2,9348238b-4f80-5c64-b59c-9cb97cc10ff8,VNU-3626-2022,14,27,270,insufficient,Codex,Thiếu 8 học kỳ chính gắn với thời gian thiết kế cử nhân chính quy.
+dev,B,Q06,3,df819ccd-6e35-5fcb-9fc7-2d3e83752cd5,VNU-3626-2022,39,795,1571,insufficient,Codex,Thiếu 8 học kỳ chính gắn với thời gian thiết kế cử nhân chính quy.
+dev,B,Q07,1,b598bfb7-3c85-518e-a515-e643239f5059,VNU-3626-2022,16,661,1092,insufficient,Codex,Thiếu mức chênh tối thiểu 20% giữa hai hình thức của cùng chương trình.
+dev,B,Q07,2,3820e334-7910-5420-b1bb-dd3a35532173,VNU-3626-2022,17,1298,1637,insufficient,Codex,Thiếu mức chênh tối thiểu 20% giữa hai hình thức của cùng chương trình.
+dev,B,Q07,3,d943a187-1b7f-5da4-bf56-4498897a385a,VNU-3626-2022,14,271,1005,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,B,Q08,1,df311c5f-46a2-5a1f-b6ad-a261d1cc07d5,VNU-3626-2022,17,659,1297,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,B,Q08,2,9348238b-4f80-5c64-b59c-9cb97cc10ff8,VNU-3626-2022,14,27,270,insufficient,Codex,Thiếu một hoặc cả hai giới hạn giờ giảng khi xếp lịch tập trung.
+dev,B,Q08,3,b598bfb7-3c85-518e-a515-e643239f5059,VNU-3626-2022,16,661,1092,insufficient,Codex,Thiếu một hoặc cả hai giới hạn giờ giảng khi xếp lịch tập trung.
+dev,B,Q09,1,458d432f-9e1f-5911-a791-0671738f2eef,VNU-3626-2022,19,0,639,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,B,Q09,2,2bd58b07-195e-58fc-ade8-471fd8aa5c6a,VNU-3626-2022,41,660,826,insufficient,Codex,Thiếu nghĩa vụ học lại chính học phần bắt buộc bị điểm F.
+dev,B,Q09,3,1b889f2b-5a2b-5434-81a2-7dd136a397e7,VNU-3626-2022,43,745,1378,insufficient,Codex,Thiếu nghĩa vụ học lại chính học phần bắt buộc bị điểm F.
+dev,B,Q10,1,458d432f-9e1f-5911-a791-0671738f2eef,VNU-3626-2022,19,0,639,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,B,Q10,2,89f58123-5599-51ce-8bfa-4f6c19c4ab51,VNU-3626-2022,18,1231,1886,insufficient,Codex,Thiếu lựa chọn thay học phần tự chọn có điều kiện bị F bằng học phần cùng khối kiến thức.
+dev,B,Q10,3,2e3992d6-33d4-57ff-838a-76d7b5f6edd5,VNU-3626-2022,27,0,662,insufficient,Codex,Thiếu lựa chọn thay học phần tự chọn có điều kiện bị F bằng học phần cùng khối kiến thức.
+dev,B,Q11,1,8017d447-52fc-592a-a41b-5fda8ead724f,VNU-3626-2022,21,0,797,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,B,Q11,2,458d432f-9e1f-5911-a791-0671738f2eef,VNU-3626-2022,19,0,639,insufficient,Codex,Thiếu căn cứ đồng thời cho điểm F và không hoàn học phí khi bỏ ngoài hạn.
+dev,B,Q11,3,4ce0ab4e-cc8d-5a76-b9fc-10ec57a34cb0,VNU-3626-2022,39,1572,2119,insufficient,Codex,Thiếu căn cứ đồng thời cho điểm F và không hoàn học phí khi bỏ ngoài hạn.
+dev,B,Q12,1,bd109927-4193-552b-9d9a-1624555d8c10,VNU-3626-2022,46,0,251,insufficient,Codex,"Thiếu ngưỡng 2,50 gắn với xét chuyển ngành sau năm thứ nhất."
+dev,B,Q12,2,6c613bcf-eca8-592b-9c50-c304298ea942,VNU-3626-2022,23,1708,2160,insufficient,Codex,"Thiếu ngưỡng 2,50 gắn với xét chuyển ngành sau năm thứ nhất."
+dev,B,Q12,3,066f7a99-e070-5d9d-83a9-a9fb766e11fc,VNU-3626-2022,49,0,617,insufficient,Codex,"Thiếu ngưỡng 2,50 gắn với xét chuyển ngành sau năm thứ nhất."
+dev,B,Q13,1,862f4d57-8467-593f-843d-76973b8a8198,VNU-3626-2022,28,778,1044,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,B,Q13,2,fca61bf5-9a98-5379-b8af-81983e992079,VNU-3626-2022,28,0,777,insufficient,Codex,Thiếu quy định loại trừ sinh viên đã học từ năm thứ hai.
+dev,B,Q13,3,b2a709c8-200c-5987-b2ac-dda5bff1bf61,VNU-3626-2022,24,1347,2095,insufficient,Codex,Thiếu quy định loại trừ sinh viên đã học từ năm thứ hai.
+dev,B,Q14,1,6ac0585f-ee43-54a1-a7dd-9334c39dedea,VNU-3626-2022,30,54,545,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,B,Q14,2,e2f73651-4f0f-5894-8f92-875f60da48bd,VNU-3626-2022,32,786,1572,insufficient,Codex,Thiếu căn cứ gắn cả thực nghiệm và đồ án với hoạt động nghiên cứu khoa học.
+dev,B,Q14,3,06c6e197-3fd4-506e-b47a-85fe05fdaaf9,VNU-3626-2022,35,363,1029,insufficient,Codex,Thiếu căn cứ gắn cả thực nghiệm và đồ án với hoạt động nghiên cứu khoa học.
+dev,B,Q15,1,c338219c-753b-558b-b7f0-98c44a629ffc,VNU-3626-2022,31,582,1106,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,B,Q15,2,070c50df-6665-513f-8723-660af6c2ca01,VNU-3626-2022,31,0,581,insufficient,Codex,Thiếu quy định chỉ cộng một lần theo mức giải cao nhất.
+dev,B,Q15,3,c87b855e-4baf-5185-95f3-d204c45151b8,VNU-3626-2022,31,1107,1711,insufficient,Codex,Thiếu quy định chỉ cộng một lần theo mức giải cao nhất.
+dev,C,Q01,1,368d3f95-75e6-5c2b-87e8-eaa608322146,VNU-3626-2022,45,182,980,insufficient,Codex,Thiếu quy định phải tích lũy học phần tiên quyết trước.
+dev,C,Q01,2,5127a604-f22a-596f-8464-4a6e8afd262a,VNU-3626-2022,4,0,568,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,C,Q01,3,89f58123-5599-51ce-8bfa-4f6c19c4ab51,VNU-3626-2022,18,1231,1886,insufficient,Codex,Thiếu quy định phải tích lũy học phần tiên quyết trước.
+dev,C,Q02,1,5127a604-f22a-596f-8464-4a6e8afd262a,VNU-3626-2022,4,0,568,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,C,Q02,2,d0086eb7-6966-56a6-b56c-346cf7b95b55,VNU-3626-2022,41,0,659,insufficient,Codex,Thiếu dải tín chỉ áp dụng cho khóa luận hoặc đồ án.
+dev,C,Q02,3,d12f7b74-c757-5914-b405-16302824a752,VNU-3626-2022,3,922,1492,insufficient,Codex,Thiếu dải tín chỉ áp dụng cho khóa luận hoặc đồ án.
+dev,C,Q03,1,2564aac7-b43a-5931-9490-c67b7ee11d0c,VNU-3626-2022,36,1348,1466,insufficient,Codex,Thiếu quy định cho phép nộp theo kỳ hoặc theo số tín chỉ.
+dev,C,Q03,2,dfc7143c-533f-59c8-9612-7909c890c104,VNU-3626-2022,7,0,790,insufficient,Codex,Thiếu quy định cho phép nộp theo kỳ hoặc theo số tín chỉ.
+dev,C,Q03,3,95bc4ebf-cd9b-57ab-a9fb-a7bf0d811079,VNU-3626-2022,18,0,625,insufficient,Codex,Thiếu quy định cho phép nộp theo kỳ hoặc theo số tín chỉ.
+dev,C,Q04,1,6340635d-efb8-529b-acc4-b391dfdb7866,VNU-3626-2022,10,31,579,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,C,Q04,2,fb1157b5-cf89-591e-8b0d-dfcff3afd6a1,VNU-3626-2022,13,0,757,insufficient,Codex,Thiếu danh sách đầy đủ năm khối kiến thức.
+dev,C,Q04,3,ef0b3e2d-61f0-574d-bed8-95b6547d8649,VNU-3626-2022,12,1135,1834,insufficient,Codex,Thiếu danh sách đầy đủ năm khối kiến thức.
+dev,C,Q05,1,1b95011e-2b99-5669-acdb-f1cdef34bfe1,VNU-3626-2022,11,0,608,insufficient,Codex,Thiếu bậc 3 gắn với chương trình đào tạo chuẩn.
+dev,C,Q05,2,0b9f7e9a-aa97-5334-aa5c-d9cb37218dc2,VNU-3626-2022,11,609,1284,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,C,Q05,3,a5fd8276-2ff1-5631-8ad7-3337f4ec5118,VNU-3626-2022,10,0,30,insufficient,Codex,Thiếu bậc 3 gắn với chương trình đào tạo chuẩn.
+dev,C,Q06,1,d943a187-1b7f-5da4-bf56-4498897a385a,VNU-3626-2022,14,271,1005,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,C,Q06,2,9348238b-4f80-5c64-b59c-9cb97cc10ff8,VNU-3626-2022,14,27,270,insufficient,Codex,Thiếu 8 học kỳ chính gắn với thời gian thiết kế cử nhân chính quy.
+dev,C,Q06,3,df819ccd-6e35-5fcb-9fc7-2d3e83752cd5,VNU-3626-2022,39,795,1571,insufficient,Codex,Thiếu 8 học kỳ chính gắn với thời gian thiết kế cử nhân chính quy.
+dev,C,Q07,1,b598bfb7-3c85-518e-a515-e643239f5059,VNU-3626-2022,16,661,1092,insufficient,Codex,Thiếu mức chênh tối thiểu 20% giữa hai hình thức của cùng chương trình.
+dev,C,Q07,2,3820e334-7910-5420-b1bb-dd3a35532173,VNU-3626-2022,17,1298,1637,insufficient,Codex,Thiếu mức chênh tối thiểu 20% giữa hai hình thức của cùng chương trình.
+dev,C,Q07,3,d943a187-1b7f-5da4-bf56-4498897a385a,VNU-3626-2022,14,271,1005,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,C,Q08,1,df311c5f-46a2-5a1f-b6ad-a261d1cc07d5,VNU-3626-2022,17,659,1297,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,C,Q08,2,9348238b-4f80-5c64-b59c-9cb97cc10ff8,VNU-3626-2022,14,27,270,insufficient,Codex,Thiếu một hoặc cả hai giới hạn giờ giảng khi xếp lịch tập trung.
+dev,C,Q08,3,b598bfb7-3c85-518e-a515-e643239f5059,VNU-3626-2022,16,661,1092,insufficient,Codex,Thiếu một hoặc cả hai giới hạn giờ giảng khi xếp lịch tập trung.
+dev,C,Q09,1,458d432f-9e1f-5911-a791-0671738f2eef,VNU-3626-2022,19,0,639,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,C,Q09,2,2bd58b07-195e-58fc-ade8-471fd8aa5c6a,VNU-3626-2022,41,660,826,insufficient,Codex,Thiếu nghĩa vụ học lại chính học phần bắt buộc bị điểm F.
+dev,C,Q09,3,1b889f2b-5a2b-5434-81a2-7dd136a397e7,VNU-3626-2022,43,745,1378,insufficient,Codex,Thiếu nghĩa vụ học lại chính học phần bắt buộc bị điểm F.
+dev,C,Q10,1,458d432f-9e1f-5911-a791-0671738f2eef,VNU-3626-2022,19,0,639,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,C,Q10,2,89f58123-5599-51ce-8bfa-4f6c19c4ab51,VNU-3626-2022,18,1231,1886,insufficient,Codex,Thiếu lựa chọn thay học phần tự chọn có điều kiện bị F bằng học phần cùng khối kiến thức.
+dev,C,Q10,3,2e3992d6-33d4-57ff-838a-76d7b5f6edd5,VNU-3626-2022,27,0,662,insufficient,Codex,Thiếu lựa chọn thay học phần tự chọn có điều kiện bị F bằng học phần cùng khối kiến thức.
+dev,C,Q11,1,8017d447-52fc-592a-a41b-5fda8ead724f,VNU-3626-2022,21,0,797,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,C,Q11,2,458d432f-9e1f-5911-a791-0671738f2eef,VNU-3626-2022,19,0,639,insufficient,Codex,Thiếu căn cứ đồng thời cho điểm F và không hoàn học phí khi bỏ ngoài hạn.
+dev,C,Q11,3,4ce0ab4e-cc8d-5a76-b9fc-10ec57a34cb0,VNU-3626-2022,39,1572,2119,insufficient,Codex,Thiếu căn cứ đồng thời cho điểm F và không hoàn học phí khi bỏ ngoài hạn.
+dev,C,Q12,1,bd109927-4193-552b-9d9a-1624555d8c10,VNU-3626-2022,46,0,251,insufficient,Codex,"Thiếu ngưỡng 2,50 gắn với xét chuyển ngành sau năm thứ nhất."
+dev,C,Q12,2,6c613bcf-eca8-592b-9c50-c304298ea942,VNU-3626-2022,23,1708,2160,insufficient,Codex,"Thiếu ngưỡng 2,50 gắn với xét chuyển ngành sau năm thứ nhất."
+dev,C,Q12,3,066f7a99-e070-5d9d-83a9-a9fb766e11fc,VNU-3626-2022,49,0,617,insufficient,Codex,"Thiếu ngưỡng 2,50 gắn với xét chuyển ngành sau năm thứ nhất."
+dev,C,Q13,1,862f4d57-8467-593f-843d-76973b8a8198,VNU-3626-2022,28,778,1044,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,C,Q13,2,fca61bf5-9a98-5379-b8af-81983e992079,VNU-3626-2022,28,0,777,insufficient,Codex,Thiếu quy định loại trừ sinh viên đã học từ năm thứ hai.
+dev,C,Q13,3,b2a709c8-200c-5987-b2ac-dda5bff1bf61,VNU-3626-2022,24,1347,2095,insufficient,Codex,Thiếu quy định loại trừ sinh viên đã học từ năm thứ hai.
+dev,C,Q14,1,6ac0585f-ee43-54a1-a7dd-9334c39dedea,VNU-3626-2022,30,54,545,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,C,Q14,2,e2f73651-4f0f-5894-8f92-875f60da48bd,VNU-3626-2022,32,786,1572,insufficient,Codex,Thiếu căn cứ gắn cả thực nghiệm và đồ án với hoạt động nghiên cứu khoa học.
+dev,C,Q14,3,06c6e197-3fd4-506e-b47a-85fe05fdaaf9,VNU-3626-2022,35,363,1029,insufficient,Codex,Thiếu căn cứ gắn cả thực nghiệm và đồ án với hoạt động nghiên cứu khoa học.
+dev,C,Q15,1,c338219c-753b-558b-b7f0-98c44a629ffc,VNU-3626-2022,31,582,1106,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+dev,C,Q15,2,070c50df-6665-513f-8723-660af6c2ca01,VNU-3626-2022,31,0,581,insufficient,Codex,Thiếu quy định chỉ cộng một lần theo mức giải cao nhất.
+dev,C,Q15,3,c87b855e-4baf-5185-95f3-d204c45151b8,VNU-3626-2022,31,1107,1711,insufficient,Codex,Thiếu quy định chỉ cộng một lần theo mức giải cao nhất.
+test,A,Q16,1,5bec05fc-bbd1-5807-af2d-b525ebe45061,VNU-3626-2022,35,900,1400,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+test,A,Q16,2,fa8ef9d7-f4c6-504b-b75d-ba25c8254252,VNU-3626-2022,35,1350,1799,insufficient,Codex,Thiếu mức trừ 25% gắn với hình thức khiển trách.
+test,A,Q16,3,fe03d3fb-b0c0-5ba4-8191-48a612f7b650,VNU-3626-2022,36,0,500,insufficient,Codex,Thiếu mức trừ 25% gắn với hình thức khiển trách.
+test,A,Q17,1,95fd5285-573b-5d57-b2c6-198bb9edaa21,VNU-3626-2022,37,0,500,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+test,A,Q17,2,aa2f8c7c-e2bc-51aa-b5cf-c963b563919c,VNU-3626-2022,22,450,950,insufficient,Codex,Thiếu yêu cầu giấy chứng nhận y tế gắn với nghỉ học tạm thời do tai nạn.
+test,A,Q17,3,abe169b7-9b44-55a4-afa9-6adc150d43c4,VNU-3626-2022,37,450,950,insufficient,Codex,Thiếu yêu cầu giấy chứng nhận y tế gắn với nghỉ học tạm thời do tai nạn.
+test,A,Q18,1,c476b93d-fd97-5463-8349-842f27c7c6fc,VNU-3626-2022,41,0,500,insufficient,Codex,Thiếu trần 50% hoặc điều kiện áp dụng đánh giá trực tuyến.
+test,A,Q18,2,15f7386c-99cb-5d63-92c8-bea55b28485a,VNU-3626-2022,38,900,1400,insufficient,Codex,Thiếu trần 50% hoặc điều kiện áp dụng đánh giá trực tuyến.
+test,A,Q18,3,e8a05383-19f2-56f3-b6d6-23bd08322200,VNU-3626-2022,17,900,1400,insufficient,Codex,Thiếu trần 50% hoặc điều kiện áp dụng đánh giá trực tuyến.
+test,A,Q19,1,39af8f3d-aa4c-5522-8818-eb9ae276d336,VNU-3626-2022,40,0,500,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+test,A,Q19,2,457d49e4-f385-5016-8846-96fd92acadf4,VNU-3626-2022,39,0,500,insufficient,Codex,Thiếu đủ hai phương án thi bù cho người vắng thi có lý do chính đáng.
+test,A,Q19,3,15f7386c-99cb-5d63-92c8-bea55b28485a,VNU-3626-2022,38,900,1400,insufficient,Codex,Thiếu đủ hai phương án thi bù cho người vắng thi có lý do chính đáng.
+test,A,Q20,1,5a7f8a5c-4034-5a8f-9ac2-2c6459aa73c5,VNU-3626-2022,49,450,950,insufficient,Codex,Thiếu hai ngưỡng điểm của điều kiện xét tốt nghiệp.
+test,A,Q20,2,cc18c764-934b-550e-8bb7-6ec425b9754e,VNU-3626-2022,44,900,1400,insufficient,Codex,Thiếu hai ngưỡng điểm của điều kiện xét tốt nghiệp.
+test,A,Q20,3,8c7e9422-7247-5ee0-b029-410b7932b9c1,VNU-3626-2022,47,900,1400,insufficient,Codex,Thiếu hai ngưỡng điểm của điều kiện xét tốt nghiệp.
+test,A,Q21,1,5a6b22bb-f329-595e-9a04-a46316c2035c,VNU-3626-2022,49,900,1400,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+test,A,Q21,2,8c7e9422-7247-5ee0-b029-410b7932b9c1,VNU-3626-2022,47,900,1400,insufficient,Codex,Thiếu đầy đủ các điều kiện làm hạ hạng tốt nghiệp.
+test,A,Q21,3,32b7f90d-f266-550b-a549-b626f6e706ce,VNU-3626-2022,26,1800,2202,insufficient,Codex,Thiếu đầy đủ các điều kiện làm hạ hạng tốt nghiệp.
+test,B,Q16,1,ea00e46a-b2ce-5d6d-9c24-9b6fef3aed1b,VNU-3626-2022,35,1030,1799,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+test,B,Q16,2,9e7ead55-b9fd-5e93-a3af-da13620570a4,VNU-3626-2022,36,0,575,insufficient,Codex,Thiếu mức trừ 25% gắn với hình thức khiển trách.
+test,B,Q16,3,987d95a3-35aa-5b85-ac83-42ae8d885161,VNU-3626-2022,42,0,780,insufficient,Codex,Thiếu mức trừ 25% gắn với hình thức khiển trách.
+test,B,Q17,1,421aebd4-c1c9-59d3-82a2-992726a5f141,VNU-3626-2022,37,0,380,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+test,B,Q17,2,3baf4cf6-b1db-58b8-9cb6-61eec43e7fd0,VNU-3626-2022,22,597,1358,insufficient,Codex,Thiếu yêu cầu giấy chứng nhận y tế gắn với nghỉ học tạm thời do tai nạn.
+test,B,Q17,3,ef0c40a3-7837-5095-9741-8afd9f39530f,VNU-3626-2022,37,381,1123,insufficient,Codex,Thiếu yêu cầu giấy chứng nhận y tế gắn với nghỉ học tạm thời do tai nạn.
+test,B,Q18,1,5fb43798-2e4e-5d1e-bdcf-ccabd986bb5c,VNU-3626-2022,38,752,1464,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+test,B,Q18,2,d0086eb7-6966-56a6-b56c-346cf7b95b55,VNU-3626-2022,41,0,659,insufficient,Codex,Thiếu trần 50% hoặc điều kiện áp dụng đánh giá trực tuyến.
+test,B,Q18,3,3d91fa6d-c1f7-5bec-a40b-e5655b6246d4,VNU-3626-2022,38,53,751,insufficient,Codex,Thiếu trần 50% hoặc điều kiện áp dụng đánh giá trực tuyến.
+test,B,Q19,1,5e1037a8-b7a8-5a90-afaf-d4315716b4e9,VNU-3626-2022,40,0,678,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+test,B,Q19,2,9100fea2-95ad-51e4-ab7a-b854a1c6e509,VNU-3626-2022,39,0,794,insufficient,Codex,Thiếu đủ hai phương án thi bù cho người vắng thi có lý do chính đáng.
+test,B,Q19,3,df819ccd-6e35-5fcb-9fc7-2d3e83752cd5,VNU-3626-2022,39,795,1571,insufficient,Codex,Thiếu đủ hai phương án thi bù cho người vắng thi có lý do chính đáng.
+test,B,Q20,1,066f7a99-e070-5d9d-83a9-a9fb766e11fc,VNU-3626-2022,49,0,617,insufficient,Codex,Thiếu hai ngưỡng điểm của điều kiện xét tốt nghiệp.
+test,B,Q20,2,8fc8b4bb-02ab-590f-aad0-f7a3764dbe15,VNU-3626-2022,44,1221,1643,insufficient,Codex,Thiếu hai ngưỡng điểm của điều kiện xét tốt nghiệp.
+test,B,Q20,3,bd109927-4193-552b-9d9a-1624555d8c10,VNU-3626-2022,46,0,251,insufficient,Codex,Thiếu hai ngưỡng điểm của điều kiện xét tốt nghiệp.
+test,B,Q21,1,a8045a99-0a5d-5485-9108-3d5dedc7e04a,VNU-3626-2022,49,618,1183,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+test,B,Q21,2,b2a709c8-200c-5987-b2ac-dda5bff1bf61,VNU-3626-2022,24,1347,2095,insufficient,Codex,Thiếu đầy đủ các điều kiện làm hạ hạng tốt nghiệp.
+test,B,Q21,3,57756d16-84fb-581b-a8d8-9804243f7b80,VNU-3626-2022,26,1967,2202,insufficient,Codex,Thiếu đầy đủ các điều kiện làm hạ hạng tốt nghiệp.
+test,C,Q16,1,ea00e46a-b2ce-5d6d-9c24-9b6fef3aed1b,VNU-3626-2022,35,1030,1799,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+test,C,Q16,2,9e7ead55-b9fd-5e93-a3af-da13620570a4,VNU-3626-2022,36,0,575,insufficient,Codex,Thiếu mức trừ 25% gắn với hình thức khiển trách.
+test,C,Q16,3,06c6e197-3fd4-506e-b47a-85fe05fdaaf9,VNU-3626-2022,35,363,1029,insufficient,Codex,Thiếu mức trừ 25% gắn với hình thức khiển trách.
+test,C,Q17,1,421aebd4-c1c9-59d3-82a2-992726a5f141,VNU-3626-2022,37,0,380,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+test,C,Q17,2,3baf4cf6-b1db-58b8-9cb6-61eec43e7fd0,VNU-3626-2022,22,597,1358,insufficient,Codex,Thiếu yêu cầu giấy chứng nhận y tế gắn với nghỉ học tạm thời do tai nạn.
+test,C,Q17,3,ef0c40a3-7837-5095-9741-8afd9f39530f,VNU-3626-2022,37,381,1123,insufficient,Codex,Thiếu yêu cầu giấy chứng nhận y tế gắn với nghỉ học tạm thời do tai nạn.
+test,C,Q18,1,5fb43798-2e4e-5d1e-bdcf-ccabd986bb5c,VNU-3626-2022,38,752,1464,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+test,C,Q18,2,d0086eb7-6966-56a6-b56c-346cf7b95b55,VNU-3626-2022,41,0,659,insufficient,Codex,Thiếu trần 50% hoặc điều kiện áp dụng đánh giá trực tuyến.
+test,C,Q18,3,3d91fa6d-c1f7-5bec-a40b-e5655b6246d4,VNU-3626-2022,38,53,751,insufficient,Codex,Thiếu trần 50% hoặc điều kiện áp dụng đánh giá trực tuyến.
+test,C,Q19,1,5e1037a8-b7a8-5a90-afaf-d4315716b4e9,VNU-3626-2022,40,0,678,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+test,C,Q19,2,9100fea2-95ad-51e4-ab7a-b854a1c6e509,VNU-3626-2022,39,0,794,insufficient,Codex,Thiếu đủ hai phương án thi bù cho người vắng thi có lý do chính đáng.
+test,C,Q19,3,df819ccd-6e35-5fcb-9fc7-2d3e83752cd5,VNU-3626-2022,39,795,1571,insufficient,Codex,Thiếu đủ hai phương án thi bù cho người vắng thi có lý do chính đáng.
+test,C,Q20,1,066f7a99-e070-5d9d-83a9-a9fb766e11fc,VNU-3626-2022,49,0,617,insufficient,Codex,Thiếu hai ngưỡng điểm của điều kiện xét tốt nghiệp.
+test,C,Q20,2,bea90fbd-4db2-5e6a-aee8-efbaf7cb4852,VNU-3626-2022,48,0,689,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+test,C,Q20,3,a8045a99-0a5d-5485-9108-3d5dedc7e04a,VNU-3626-2022,49,618,1183,insufficient,Codex,Thiếu hai ngưỡng điểm của điều kiện xét tốt nghiệp.
+test,C,Q21,1,a8045a99-0a5d-5485-9108-3d5dedc7e04a,VNU-3626-2022,49,618,1183,exact,Codex,"Khớp nguồn, trang và nguyên văn gold."
+test,C,Q21,2,066f7a99-e070-5d9d-83a9-a9fb766e11fc,VNU-3626-2022,49,0,617,insufficient,Codex,Thiếu đầy đủ các điều kiện làm hạ hạng tốt nghiệp.
+test,C,Q21,3,5b1b0228-1613-577c-879a-bea897c954ca,VNU-3626-2022,47,1257,1289,insufficient,Codex,Thiếu đầy đủ các điều kiện làm hạ hạng tốt nghiệp.

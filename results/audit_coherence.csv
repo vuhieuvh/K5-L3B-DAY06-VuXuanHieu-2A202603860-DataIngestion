@@ -1,0 +1,31 @@
+﻿strategy,page,anchor,chunk_id,score,reason
+A,1,793,a375b783-f35b-5544-98b0-d518927dbfbf,1,Vẫn hiểu được một phần phạm vi áp dụng của quy chế. Phần mở đầu bị cắt và câu về thẩm quyền cấp bằng kết thúc giữa ý.
+B,1,793,8296b93c-22f6-5a4c-8cce-c0dad0b21717,2,Giữ đầy đủ phạm vi và đối tượng của Điều 1.
+A,2,950,da8575e9-059b-55ba-9f75-7070b76b0219,1,"Mục thể chất và tin học hiểu được, hai mép đều cắt ý."
+B,2,950,b6b3b750-72b2-588f-ad3e-7a3a38f9d46f,2,Các mục b–e nêu trọn đơn vị phụ trách và ngoại lệ tin học.
+A,3,915,4e7907e3-eae0-5b51-827c-a5f48cebfd31,1,"Giữ định nghĩa tín chỉ, cắt phần thực hành và giờ lý thuyết."
+B,3,915,30595b03-1e07-581d-bcbd-18ec52c91670,1,Giữ định nghĩa tín chỉ nhưng kết thúc bằng lời dẫn chưa có danh sách.
+A,4,825,dd79bea6-cf88-5149-8e49-8a8d89a9f538,1,"Đủ ý về học phần điều kiện, cắt mục ngoại ngữ."
+B,4,825,d6df7dbb-614b-5fc0-93ea-10efc9099468,1,"Giữ ý chính của mục học phần, danh sách đề cương còn dang dở."
+A,5,752,dc263ec3-a095-543d-a1bf-ed441eaf467b,1,"Giữ định nghĩa chương trình, cắt đầu và tiêu đề mục sau."
+B,5,752,5ede43d0-8cdd-510e-b826-66b138786a25,1,"Giữ định nghĩa và các mục a–e, danh sách loại chương trình còn tiếp."
+A,6,815,921178b1-175a-51e2-acd7-69a0ab158c17,0,"Mất chủ thể đào tạo vừa làm vừa học ở Điều 7, khiến phạm vi áp dụng thiếu rõ ràng. Phần cuối sang Điều 8 nhưng chỉ có tiêu đề và đầu mục bị cắt."
+B,6,815,187e28b2-f3ac-575f-84d5-eac5626d46ee,2,Mục vừa làm vừa học tự hiểu được và giữ cả ngoại lệ địa điểm.
+A,7,777,7af81e70-900a-5a0b-b32c-9eb408a855a2,1,"Giữ ý miễn giảm và nguồn kinh phí, mất đầu và cuối."
+B,7,777,dfc7143c-533f-59c8-9612-7909c890c104,1,"Các quy tắc về học phí đọc được, ký hiệu đầu đoạn phụ thuộc công thức trang trước."
+A,8,917,27b3ab93-7ac9-5d17-99f6-71dc9806655d,1,"Nội dung tổ chức tuyển sinh rõ, dính hai đầu bị cắt."
+B,8,917,92687b64-cc5d-52d5-8740-08c527c0048f,2,"Mục tổ chức tuyển sinh đủ chủ thể, hành động và phạm vi."
+A,9,973,e8c7f2e1-5d9a-525c-8ea6-88fe5deba80f,1,"Hiểu trách nhiệm chủ trì, mất phần cuối về quyền lợi sinh viên."
+B,9,973,484a97b8-5707-54c6-b7b1-e250f940c45c,2,Giữ trọn nghĩa vụ của đơn vị chủ trì và phối hợp.
+A,10,697,879e63e5-d358-56b5-9ba0-f8793e161890,1,"Thấy nguyên tắc mở ngành, mục thứ hai dừng giữa từ."
+B,10,697,6dc32b73-a682-54a9-9868-f8f8e2e55c17,2,Giữ trọn năm nguyên tắc mở ngành và ngoại lệ.
+C,1,793,8296b93c-22f6-5a4c-8cce-c0dad0b21717,2,Giữ đầy đủ phạm vi và đối tượng của Điều 1.
+C,2,950,b6b3b750-72b2-588f-ad3e-7a3a38f9d46f,2,Các mục b–e nêu trọn đơn vị phụ trách và ngoại lệ tin học.
+C,3,915,30595b03-1e07-581d-bcbd-18ec52c91670,1,Giữ định nghĩa tín chỉ nhưng kết thúc bằng lời dẫn chưa có danh sách.
+C,4,825,d6df7dbb-614b-5fc0-93ea-10efc9099468,1,"Giữ ý chính của mục học phần, danh sách đề cương còn dang dở."
+C,5,752,5ede43d0-8cdd-510e-b826-66b138786a25,1,"Giữ định nghĩa và các mục a–e, danh sách loại chương trình còn tiếp."
+C,6,815,187e28b2-f3ac-575f-84d5-eac5626d46ee,2,Mục vừa làm vừa học tự hiểu được và giữ cả ngoại lệ địa điểm.
+C,7,777,dfc7143c-533f-59c8-9612-7909c890c104,1,"Các quy tắc về học phí đọc được, ký hiệu đầu đoạn phụ thuộc công thức trang trước."
+C,8,917,92687b64-cc5d-52d5-8740-08c527c0048f,2,"Mục tổ chức tuyển sinh đủ chủ thể, hành động và phạm vi."
+C,9,973,484a97b8-5707-54c6-b7b1-e250f940c45c,2,Giữ trọn nghĩa vụ của đơn vị chủ trì và phối hợp.
+C,10,697,6dc32b73-a682-54a9-9868-f8f8e2e55c17,2,Giữ trọn năm nguyên tắc mở ngành và ngoại lệ.

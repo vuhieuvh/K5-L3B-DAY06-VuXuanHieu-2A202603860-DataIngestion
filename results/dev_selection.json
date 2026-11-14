@@ -1,0 +1,33 @@
+{
+  "identity": {
+    "pdf_sha256": "244addf2f614dec7a8804264a5ac966c3785bc7a49d8f23daf1069df05298f93",
+    "benchmark_sha256": "66bc78679898fb4796ef72665e94f7d2222355506f8edb63b73d6313399a833f",
+    "embedding_model": "intfloat/multilingual-e5-small",
+    "embedding_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "dimensions": 384,
+    "onnx_sha256": "dd476dd0c2514e9b9be83aeb3853fac0763e0bdf4a71645407587d77c48a2d88",
+    "tokenizer_sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+    "packages": {
+      "pymupdf": "1.27.2.3",
+      "qdrant-client": "1.20.0",
+      "fastembed": "0.9.1",
+      "onnxruntime": "1.32.0",
+      "tokenizers": "0.23.3",
+      "numpy": "2.4.6"
+    },
+    "pipeline_sha256": {
+      "__init__.py": "9d51e4a4713565f1b69bb8f3a0d8ac2c6c8730961e738a65f7a7a4ebd2a593a8",
+      "chunking.py": "de3f3e9f2b97858e93c04c7697018294308542923ae8432204cf06db2b8af067",
+      "embeddings.py": "6904ab94f5e1efead5b0a2dca4e5259937b2aa0ea146532c9cf041a63e669d62",
+      "evaluation.py": "1604452d574a43099c609c84a2a342f885ea5fc667cc21243780044b204f8765",
+      "ingestion.py": "6d290fe35eba14a0cb9459fbb361190398936ea9a7629effa863c213b58a00dc",
+      "models.py": "9f26a14cd6139c7b608df067894274308ae7b5c2c2ccd10566079c345fae1710",
+      "run.py": "6968f04495e461a26a08e70c426c27069a4f3093738e08d6e90a5ffc49abe869",
+      "store.py": "97ae45ed5f3e31ca3dbd9fa118d4ff2d0957cb7f49309ec9473669474d9d3f04"
+    },
+    "cosine_search": "Qdrant local, exact"
+  },
+  "chosen": "B",
+  "frozen_at": "2026-11-14T10:16:11.491029+07:00",
+  "rule": "Dev Hit@3, then Hit@1, then fewer chunks, then A before B before C"
+}

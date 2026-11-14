@@ -1,0 +1,85 @@
+{
+  "method": "Bản sao sạch của cây bài làm local, venv mới, cài requirements.txt, tải lại PDF và model bằng script README. Chuyển mã và benchmark sang CRLF sau dev trước test. So sánh toàn bộ trace chia sẻ, bỏ thời gian truy vấn.",
+  "verified_at": "2026-11-14T11:27:52.044060+07:00",
+  "frozen_choice": "B",
+  "identity": {
+    "pdf_sha256": "244addf2f614dec7a8804264a5ac966c3785bc7a49d8f23daf1069df05298f93",
+    "benchmark_sha256": "657f34e381f9e68a1a8d372c825904c1e51e1f036a187a7d375343e24ab9062a",
+    "embedding_model": "intfloat/multilingual-e5-small",
+    "embedding_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "dimensions": 384,
+    "onnx_sha256": "dd476dd0c2514e9b9be83aeb3853fac0763e0bdf4a71645407587d77c48a2d88",
+    "tokenizer_sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+    "packages": {
+      "pymupdf": "1.27.2.3",
+      "qdrant-client": "1.20.0",
+      "fastembed": "0.9.1",
+      "onnxruntime": "1.32.0",
+      "tokenizers": "0.23.3",
+      "numpy": "2.4.6"
+    },
+    "pipeline_sha256": {
+      "__init__.py": "86b6f304b218783f00e27c050a111049f5dc07fd98194c556deb0633d7c8980a",
+      "chunking.py": "4b48c0f1a763fa3e46be8d563f0f57fc7be7cfd9b9ba060372eaf9fc6bae9c31",
+      "embeddings.py": "82e1f60be5c83e977d6197a4979484b7933d730728db9f89a65b1d0e4379b5da",
+      "evaluation.py": "40e800bf1d1bc3049169d20af5af3167968773d630a2885e9bdbdbeda439882a",
+      "ingestion.py": "13a33495c97bfb035895c927d4be65de359cc5b7fb8dd59d23315f87d67a64d2",
+      "models.py": "5380cd16fcd0d4396db5dda3a205c148c148a5fd6e90b90d060dd546e39bb68d",
+      "run.py": "2d847fbe8035444cbe66ac5cf677a5b9be332a2c03e74bbce51f8bf5589e0542",
+      "store.py": "557a7e7d9302f6884362ecdef05ca001cc16b03fd473864d84b6f26475efd99d"
+    },
+    "cosine_search": "Qdrant local, exact"
+  },
+  "checks": {
+    "dev": {
+      "queries": 45,
+      "ranked_hits": 135,
+      "metrics": {
+        "A": {
+          "n": 15,
+          "hit1": 7,
+          "hit3": 9
+        },
+        "B": {
+          "n": 15,
+          "hit1": 10,
+          "hit3": 13
+        },
+        "C": {
+          "n": 15,
+          "hit1": 10,
+          "hit3": 13
+        }
+      }
+    },
+    "test": {
+      "queries": 18,
+      "ranked_hits": 54,
+      "metrics": {
+        "A": {
+          "n": 6,
+          "hit1": 4,
+          "hit3": 4
+        },
+        "B": {
+          "n": 6,
+          "hit1": 5,
+          "hit3": 5
+        },
+        "C": {
+          "n": 6,
+          "hit1": 5,
+          "hit3": 6
+        }
+      }
+    }
+  },
+  "log": [
+    "2026-11-14 11:27:27,470 INFO Starting dev with 52 verified pages",
+    "2026-11-14 11:27:40,336 INFO Ingested 224 points in fixed",
+    "2026-11-14 11:27:51,961 INFO Ingested 180 points in structured",
+    "2026-11-14 11:27:52,046 INFO Completed dev: {'A': {'n': 15, 'hit1': 7, 'hit3': 9}, 'B': {'n': 15, 'hit1': 10, 'hit3': 13}, 'C': {'n': 15, 'hit1': 10, 'hit3': 13}}",
+    "2026-11-14 11:27:54,718 INFO Starting test with 52 verified pages",
+    "2026-11-14 11:27:55,620 INFO Completed test: {'A': {'n': 6, 'hit1': 4, 'hit3': 4}, 'B': {'n': 6, 'hit1': 5, 'hit3': 5}, 'C': {'n': 6, 'hit1': 5, 'hit3': 6}}"
+  ]
+}

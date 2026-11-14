@@ -1,0 +1,35 @@
+{
+  "source": "Lịch sử công cụ Codex local của lượt làm bài ngày 14/11/2026. Tên tệp và số dòng cho phép kiểm tra trong lịch sử trên máy học viên.",
+  "session_file": "rollout-2026-11-14T10-06-28-01a1d7df-cc24-7ae2-bc70-fcd1243101c0_01a1d805-4c85-7b21-a58d-d7ec078d71d9.jsonl",
+  "events": {
+    "author_questions": {
+      "line": 180,
+      "timestamp_utc": "2026-11-14T03:13:43.781Z",
+      "call_id": "call_73468130773246d1b1cfb721248491eb"
+    },
+    "save_split_gold_and_rule": {
+      "line": 195,
+      "timestamp_utc": "2026-11-14T03:15:13.438Z",
+      "call_id": "call_9cd2cc9325214f36b2628307e11967f4"
+    },
+    "save_success": {
+      "line": 198,
+      "timestamp_utc": "2026-11-14T03:15:15.583Z",
+      "call_id": "call_9cd2cc9325214f36b2628307e11967f4"
+    },
+    "invoke_original_dev": {
+      "line": 205,
+      "timestamp_utc": "2026-11-14T03:15:32.587Z",
+      "call_id": "call_d0f581412ff64f6dacba171812c22858"
+    }
+  },
+  "original_dev_started_local": "2026-11-14T10:15:35.753+07:00",
+  "original_test_started_local": "2026-11-14T10:16:30.340+07:00",
+  "split_counts": {
+    "dev": 15,
+    "test": 6
+  },
+  "benchmark_sha256_original_crlf": "66bc78679898fb4796ef72665e94f7d2222355506f8edb63b73d6313399a833f",
+  "verified": "Tái dựng đủ 21 câu và offsets từ câu hỏi trong lịch sử trước dev, PDF có checksum và ba điều chỉnh gold trong lệnh lưu cuối. SHA-256 của bản tái dựng khớp file hiện tại và dev_selection.json. Quy tắc chọn trong lệnh lưu README khớp README hiện tại.",
+  "limitation": "Biên bản đối chiếu được lập sau lần chạy gốc từ lịch sử cục bộ có sẵn. Mốc giờ phản ánh đồng hồ máy. Chưa có dấu thời gian do bên thứ ba xác nhận."
+}

@@ -1,0 +1,47 @@
+{
+  "A": {
+    "coherence_mean": 0.9,
+    "coherence_n": 10,
+    "metadata_ok": 18,
+    "metadata_n": 18,
+    "filter_ok": 1,
+    "filter_n": 3,
+    "grounding_counts": [
+      1,
+      1,
+      4
+    ],
+    "grounding_mean": 1.5,
+    "test_search_median_ms": 0.8714500000000001
+  },
+  "B": {
+    "coherence_mean": 1.6,
+    "coherence_n": 10,
+    "metadata_ok": 18,
+    "metadata_n": 18,
+    "filter_ok": 0,
+    "filter_n": 3,
+    "grounding_counts": [
+      1,
+      0,
+      5
+    ],
+    "grounding_mean": 1.6666666666666667,
+    "test_search_median_ms": 0.6412500000000001
+  },
+  "C": {
+    "coherence_mean": 1.6,
+    "coherence_n": 10,
+    "metadata_ok": 18,
+    "metadata_n": 18,
+    "filter_ok": 3,
+    "filter_n": 3,
+    "grounding_counts": [
+      0,
+      0,
+      6
+    ],
+    "grounding_mean": 2,
+    "test_search_median_ms": 1.105
+  }
+}

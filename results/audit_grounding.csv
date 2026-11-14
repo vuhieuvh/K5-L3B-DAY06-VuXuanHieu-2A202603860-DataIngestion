@@ -1,0 +1,19 @@
+﻿strategy,id,score,reason
+A,Q16,2,"Đủ mức trừ điểm và đúng ngữ cảnh khiển trách ở Điều 35, trang 35."
+A,Q17,2,"Có yêu cầu giấy chứng nhận của cơ sở khám chữa bệnh có thẩm quyền, Điều 36, trang 37."
+A,Q18,1,Hạng 2 tìm đến Điều 37 nhưng cắt giữa yêu cầu so sánh với đánh giá trực tiếp và làm mất trần 50%.
+A,Q19,2,"Đủ hai phương án cho người vắng thi có lý do chính đáng, Điều 38, trang 40."
+A,Q20,0,Hạng 3 chỉ có phần mở đầu Điều 46 và thiếu cả hai ngưỡng xét tốt nghiệp. Các ngưỡng ở hạng 1 dùng để xếp loại tốt nghiệp.
+A,Q21,2,"Đủ hai điều kiện hạ hạng và ngưỡng trên 5%, Điều 47, trang 49."
+B,Q16,2,"Đủ mức trừ điểm và đúng ngữ cảnh khiển trách ở Điều 35, trang 35."
+B,Q17,2,"Có yêu cầu giấy chứng nhận của cơ sở khám chữa bệnh có thẩm quyền, Điều 36, trang 37."
+B,Q18,2,"Có cả trần 50% và ba yêu cầu về đánh giá, Điều 37, trang 38."
+B,Q19,2,"Đủ hai phương án cho người vắng thi có lý do chính đáng, Điều 38, trang 40."
+B,Q20,0,Ba kết quả nói về xếp hạng hoặc cách tính điểm. Không có căn cứ về hai ngưỡng đủ điều kiện tốt nghiệp.
+B,Q21,2,"Đủ hai điều kiện hạ hạng và ngưỡng trên 5%, Điều 47, trang 49."
+C,Q16,2,"Đủ mức trừ điểm và đúng ngữ cảnh khiển trách ở Điều 35, trang 35."
+C,Q17,2,"Có yêu cầu giấy chứng nhận của cơ sở khám chữa bệnh có thẩm quyền, Điều 36, trang 37."
+C,Q18,2,"Có cả trần 50% và ba yêu cầu về đánh giá, Điều 37, trang 38."
+C,Q19,2,"Đủ hai phương án cho người vắng thi có lý do chính đáng, Điều 38, trang 40."
+C,Q20,2,"Hạng 2 chứa hai ngưỡng đúng của Điều 46, trang 48."
+C,Q21,2,"Đủ hai điều kiện hạ hạng và ngưỡng trên 5%, Điều 47, trang 49."

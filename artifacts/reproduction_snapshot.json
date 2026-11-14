@@ -1,0 +1,17 @@
+{
+  "recorded_at": "2026-11-14T11:27:06.564562+07:00",
+  "purpose": "Snapshot cho lượt tái lập sau phản hồi. Lượt benchmark gốc diễn ra trước snapshot này.",
+  "selection_rule": "Dev Hit@3, then Hit@1, then fewer chunks, then A before B before C",
+  "sha256_lf": {
+    "benchmark/questions.json": "657f34e381f9e68a1a8d372c825904c1e51e1f036a187a7d375343e24ab9062a",
+    "benchmark/README.md": "c69e0e0b74908466bc7a87a078e0e5b9ae766d21647b5ffb8b61853b5c343185",
+    "starter/src/__init__.py": "86b6f304b218783f00e27c050a111049f5dc07fd98194c556deb0633d7c8980a",
+    "starter/src/chunking.py": "4b48c0f1a763fa3e46be8d563f0f57fc7be7cfd9b9ba060372eaf9fc6bae9c31",
+    "starter/src/embeddings.py": "82e1f60be5c83e977d6197a4979484b7933d730728db9f89a65b1d0e4379b5da",
+    "starter/src/evaluation.py": "40e800bf1d1bc3049169d20af5af3167968773d630a2885e9bdbdbeda439882a",
+    "starter/src/ingestion.py": "13a33495c97bfb035895c927d4be65de359cc5b7fb8dd59d23315f87d67a64d2",
+    "starter/src/models.py": "5380cd16fcd0d4396db5dda3a205c148c148a5fd6e90b90d060dd546e39bb68d",
+    "starter/src/run.py": "2d847fbe8035444cbe66ac5cf677a5b9be332a2c03e74bbce51f8bf5589e0542",
+    "starter/src/store.py": "557a7e7d9302f6884362ecdef05ca001cc16b03fd473864d84b6f26475efd99d"
+  }
+}

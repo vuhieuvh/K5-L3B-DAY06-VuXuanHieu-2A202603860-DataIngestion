@@ -1,29 +1,19 @@
-"""Choose a real embedding provider (API or local) and implement this contract."""
-from typing import Protocol
+"""Local semantic embeddings with explicit E5 task prefixes."""
+from pathlib import Path
+from fastembed import TextEmbedding
+from fastembed.common.model_description import ModelSource, PoolingType
+
+MODEL = "intfloat/multilingual-e5-small"
+DIMENSIONS = 384
+MODEL_FILE = "onnx/model_qint8_avx512_vnni.onnx"
 
 
-class Embedder(Protocol):
-    model_name: str
-    dimensions: int
-
-    def embed_documents(self, texts: list[str]) -> list[list[float]]:
-        """Return one vector per input text, in the same order."""
-        ...
-
-    def embed_query(self, question: str) -> list[float]:
-        """Return a query vector compatible with the stored document vectors."""
-        ...
+def load_embedder(cache: Path) -> TextEmbedding:
+    if MODEL not in {entry["model"] for entry in TextEmbedding.list_supported_models()}:
+        TextEmbedding.add_custom_model(
+            model=MODEL, pooling=PoolingType.MEAN, normalization=True,
+            sources=ModelSource(hf=MODEL), dim=DIMENSIONS, model_file=MODEL_FILE,
+        )
+    return TextEmbedding(model_name=MODEL, specific_model_path=str(cache), threads=4)
 
 
-class MyEmbedder:
-    """TODO: implement a provider adapter; do not silently fall back to mock vectors."""
-
-    def __init__(self, model_name: str) -> None:
-        self.model_name = model_name
-        raise NotImplementedError("TODO: initialize real embedder and dimensions")
-
-    def embed_documents(self, texts: list[str]) -> list[list[float]]:
-        raise NotImplementedError("TODO: embed_documents")
-
-    def embed_query(self, question: str) -> list[float]:
-        raise NotImplementedError("TODO: embed_query")

@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed per page,500,50,source/document_id/page/chapter/article/start/end,off,intfloat/multilingual-e5-small / 384 / ONNX INT8,Overlap recovers some evidence near window boundaries.,7/15,9/15,4/6,4/6,Baseline
+B,chapter/article/paragraph per page,800,0,source/document_id/page/chapter/article/start/end,off,intfloat/multilingual-e5-small / 384 / ONNX INT8,Structural grouping preserves clauses and reduces boundary cuts.,10/15,13/15,5/6,5/6,Selected by frozen dev rule; additional evidence review in results/metrics_evidence_review.json
+C,chapter/article/paragraph per page,800,0,source/document_id/page/chapter/article/start/end,chapter when requested,intfloat/multilingual-e5-small / 384 / ONNX INT8,Explicit chapter scope reduces cross-chapter distractors.,10/15,13/15,5/6,6/6,Shares B vectors and collection
